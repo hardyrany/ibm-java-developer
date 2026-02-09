@@ -1,2 +1,2 @@
-message = "Software Engineering is awwsome"
+message = "Software Engineering is awesome"
 print(message)

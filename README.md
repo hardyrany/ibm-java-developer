@@ -42,7 +42,7 @@ Docker · Kubernetes · CI/CD · Cloud Native ·
 Microservices · Agile · Scrum · IBM Cloud
 
 ### Tools & Version Control
-Git · GitHub · IntelliJ IDEA · Maven
+Git · GitHub · GitHub Actions · VS Code · IntelliJ IDEA · Maven
 
 ### Testing & Architecture
 JUnit · Design Patterns · RESTful APIs ·
@@ -54,8 +54,6 @@ ChatGPT for coding · Generative AI with Spring
 
 ## Goals
 - Build strong Java foundations
-- Prepare for OCP Java SE 21 certification
-- Pursue B.Sc. Computer Science at BITS Pilani
 - Land first remote Java Developer role
 
 ## Status

@@ -4,6 +4,6 @@ public class Car {
     String color;
     int year;
     void displayInfo() {
-        System.out.println("Color: " + color + ", Year: " + year );
+        System.out.println("Color: " + color + "\nYear: " + year );
     }
 }

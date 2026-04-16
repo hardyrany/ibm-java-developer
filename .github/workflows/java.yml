@@ -19,4 +19,8 @@ jobs:
         java-version: '17'
 
     - name: Compile all Java files
-      run: find . -name "*.java" > sources.txt && javac @sources.txt
+      run: |
+        find . -name "*.java" | while read file; do
+          dir=$(dirname "$file")
+          javac -d "$dir/ ../classes" "$file"
+        done

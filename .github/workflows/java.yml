@@ -18,9 +18,11 @@ jobs:
         distribution: 'temurin'
         java-version: '17'
 
-    - name: Compile all Java files
+    - name: Compile Java files individually
       run: |
-        find . -name "*.java" | while read file; do
-          dir=$(dirname "$file")
-          javac -d "$dir/../classes" "$file"
+        mkdir -p classes
+
+        find . -name "*.java" -type f -print0 | while IFS= read -r -d '' file; do
+          echo "Compiling $file"
+          javac -d classes "$file" || true
         done

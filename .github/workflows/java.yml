@@ -22,5 +22,5 @@ jobs:
       run: |
         find . -name "*.java" | while read file; do
           dir=$(dirname "$file")
-          javac -d "$dir/ ../classes" "$file"
+          javac -d "$dir/../classes" "$file"
         done

@@ -10,14 +10,14 @@ public class PrimitiveDataTypes {
         char initial = 'A'; // Initial of a person's name
         boolean isLoggedIn = true; // User login status
 
-        System.out.println(age);
-        System.out.println(temperature);
-        System.out.println(population);
-        System.out.println(distanceToMoon);
-        System.out.println(price);
-        System.out.println(pi);
-        System.out.println(initial);
-        System.out.println(isLoggedIn);
+        System.out.println("Age of a person: " + age);
+        System.out.println("Temperature in degree: " + temperature);
+        System.out.println("Population of city: " + population);
+        System.out.println("Distance in meters: " + distanceToMoon);
+        System.out.println("Price of a product: " + price);
+        System.out.println("Value od Pi: " + pi);
+        System.out.println("Initial of a person's name: " + initial);
+        System.out.println("User login status: " + isLoggedIn);
 
     }
 }

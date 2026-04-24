@@ -19,18 +19,18 @@ public class RationalOperators {
         System.out.println("First value: " + a);
         System.out.println("Secund value: " + b);
         System.out.println("===============");
-        
-        System.out.println("Rational Operators: " 
-        + "\nEqual: ==" 
-        + "\nNot Equal/Different: !=" 
-        + "\nGreater Than: >" 
-        + "\nLess Than: <" 
-        + "\nGreater Than or Equal: >=" 
-        + "\nLess Than or Equal: <=");
+
+        System.out.println("Rational Operators: "
+                + "\nEqual: =="
+                + "\nNot Equal/Different: !="
+                + "\nGreater Than: >"
+                + "\nLess Than: <"
+                + "\nGreater Than or Equal: >="
+                + "\nLess Than or Equal: <=");
         System.out.println("=========================");
 
         System.out.println("Is a equal to b? : " + (a == b));
-        System.out.println("Is a not equal to b? : " + (a != b) );
+        System.out.println("Is a not equal to b? : " + (a != b));
         System.out.println("Is a greater than b? : " + (a > b));
         System.out.println("Ia a less than b? : " + (a < b));
         System.out.println("Is a greater or equal to b? : " + (a >= b));

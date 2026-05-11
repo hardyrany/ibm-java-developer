@@ -14,8 +14,15 @@ public class LogicalOperators {
 
         int a = 10;
         int b = 5;
+        int c = 15;
 
-        
+        if (a > b && b < c) {
+            System.out.println("AND logical operator '&&'");
+        } else if (a > b || b > c) {
+            System.out.println("OR logical operator '||'");
+        } else if (!(a > b)) {
+            System.out.println("NOT logical operator ''!()");
+        }
 
     }
 }
